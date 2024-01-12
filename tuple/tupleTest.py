@@ -1,4 +1,4 @@
-'''
+"""
 --> Tuple is immutable, list is mutable
 --> Tuple is faster than list
 --> Tuple is used for heterogeneous (different) datatypes and list is used for homogeneous (similar) datatypes
@@ -10,7 +10,7 @@
 --> Tuple is used in fetching data from database, list is used in insertion, deletion and updation
 --> Tuple is used in passing data to function, list is used in loops
 --> Tuple is ordered collection of items, list is ordered collection of items
-'''
+"""
 
 # Tuple creation
 tuple1 = (1, "python", 2, "robot", True, 4.5, 2, "java", 2)
