@@ -10,27 +10,22 @@
 import copy
 
 # Shallow copy example
-old_list = [10, 20, 40, 30.5]
-new_list = copy.copy(old_list)
-print("old list: ", old_list)
-print("new list: ", new_list)
-old_list[1] = 100
-print("old data after shallow copy: ", old_list)
-print("Shallow copied data: ", new_list)
+old_shallow_list = [[5, 8, 2], [40, 32, 45], [10, 20, 40]]
+new_shallow_list = copy.copy(old_shallow_list)
+print("old shallow list: ", old_shallow_list)
+print("new shallow list: ", new_shallow_list)
+old_shallow_list[1][1] = 100
+print("old data after shallow copy: ", old_shallow_list)
+print("Shallow copied data: ", new_shallow_list)
+
+print("\n")
 
 # Deep copy example
-# list3 = [10, 20, 40, 30.5]
-# list4 = copy.deepcopy(list3)
-# print(list4)
-# print(id(list3))
-# print(id(list4))
+old_deep_list = [[5, 8, 2], [40, 32, 45], [10, 20, 40]]
+new_deep_list = copy.deepcopy(old_deep_list)
+print("old deep list: ", old_deep_list)
+print("new deep list: ", new_deep_list)
+old_deep_list[1][1] = 100
+print("old data after deep copy: ", old_deep_list)
+print("Deep copied data: ", new_deep_list)
 
-old_list = [[1, 1, 1], [2, 2, 2], [3, 3, 3]]
-new_list = copy.copy(old_list)
-
-print("Old list:", old_list)
-print("New list:", new_list)
-old_list[1][1] = 'AA'
-
-print("Old list:", old_list)
-print("New list:", new_list)
