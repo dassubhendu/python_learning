@@ -258,6 +258,44 @@ print("\n")
     
 """
 
+print("\n")
+
+"""
+19. sys.version_info
+--> sys.getrefcount()
+-->
+"""
+
+"""
+20. How to remove a variable from memory in Python?
+--> del keyword is used to remove a variable from memory.
+"""
+
+print("\n")
+
+"""
+21. What is the difference between range & xrange?
+--> range() ==> returns a list whereas xrange() ==> returns an object that acts like an iterator.
+--> xrange() is faster than range() because it does not create any list.
+--> xrange() is deprecated in Python 3.
+--> xrange() is used only in Python 2.
+"""
+a = range(1, 10)
+for i in a:
+    print(i)
+# b = xrange(1, 100)
+print(type(a))
+
+print("\n")
+
+"""
+22. How to convert a list of integers to a comma separated string in Python?
+"""
+print(" ***************** How to convert a list of integers to a comma separated string in Python? *****************")
+list006 = [10, 20, 30, 40, 50]
+print("list006: ", list006)
+numbers = ','.join(str(i) for i in list006)
+print("numbers: ", numbers)
 
 
 

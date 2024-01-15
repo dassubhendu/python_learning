@@ -1,0 +1,25 @@
+Tutorial ==> https://www.youtube.com/watch?v=LwAwyL9ozDA
+
+Tuple ==> Done
+Arguments ==> Done
+Class, Object, Constructor ==> Done
+List ==> Done
+Exception handling ==> Done
+Inheritance ==> Done
+overriding ==> Done
+File reading and writing ==> Done
+
+=================================================================
+Questions ==>
+1. https://www.youtube.com/watch?v=B_17_RORoiI
+2. https://www.youtube.com/watch?v=x75bsVZNLeE
+
+
+===================================================================
+RAN
+https://www.teoco.com/products-services/ran-solutions/planning/radio-planning/
+https://www.techtarget.com/searchnetworking/definition/radio-access-network-RAN
+
+
+
+
