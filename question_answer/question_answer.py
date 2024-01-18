@@ -449,14 +449,89 @@ print("\n")
 """
 32. Write a one line for loop to print all the words in a list which starts with 'i'
 """
-print(" ***************** Write a one line for loop to print all the words in a list which starts with 'i' *****************")
+print(
+    " ***************** Write a one line for loop to print all the words in a list which starts with 'i' *****************")
 list12 = ['india', 'is', 'my', 'country']
 print([word for word in list12 if word.startswith('i')])
 
 print("\n")
 
 """
-33. What is the difference between is and ==
+33. What is the difference between 'is' and '=='
 --> is ==> compares the identity of two objects. Reference / address comparison and returns True or False.
 --> == ==> compares the values of two objects. Content comparison and returns True or False.
+"""
+print(" ***************** is and == *****************")
+a = [1, 2, 3]
+b = [1, 2, 3]
+print("a is b: ", a is b)
+print("a == b: ", a == b)
+c = a  # Aliasing - a and c are pointing to the same object
+print("a is c: ", a is c)
+
+print("\n")
+
+"""
+34. Explain about ternary or conditional operator in Python
+--> Binary operator ==> takes two operands.
+--> Ternary operator ==> takes three operands.
+--> Nesting of ternary operator is possible.    
+Example:
+    x = 'first value' if condition else 'second value' # Three operands
+"""
+# Find max of two numbers
+print(" ***************** Find max of two numbers *****************")
+a = 10
+b = 20
+max1 = a if a > b else b
+print("Maximum value: ", max1)
+print(f'The maximum value is: {max1}')
+
+# Find max of three numbers
+print(" ***************** Find max of three numbers *****************")
+a = 10
+b = 20
+c = 30
+max2 = a if a > b and a > c else b if b > c else c
+
+print("\n")
+
+"""
+35. What are various data types in Python?
+--> Fundamental Data Type: int, float, complex, bool, str
+--> Derived Data Type: list, tuple, set, dict, frozenset
+--> Special Data Type: None
+--> User Defined Data Type: class, enum, function, lambda
+==> complex numbers: 1 + 2j
+==> Frozenset: immutable set
+"""
+
+print("\n")
+
+"""
+36. Explain mutability and immutability in Python.
+--> List objects are mutable.
+--> Tuple objects are immutable.
+--> String objects are immutable.
+--> Set objects are mutable.
+--> Dictionary objects are mutable.
+===> All fundamental data types are immutable.
+===> All derived data types are mutable except tuple.
+===> Frozenset is immutable.
+===> Bytes objects are immutable.
+===> Bytearray objects are mutable.
+===> Range objects are immutable.
+"""
+
+print("\n")
+
+"""
+37. Explain the difference between List and Tuple.
+--> List is mutable and Tuple is immutable.
+--> List is slower than Tuple.
+--> List is written as [1, 2, 3] and Tuple is written as (1, 2, 3).
+--> List is better for performing operations, such as insertion and deletion, and Tuple is better for accessing the elements.
+--> List consumes more memory than Tuple.
+--> List can be converted to Tuple and vice versa.
+--> List can be used as a key in a dictionary and Tuple cannot be used as a key in a dictionary.
 """
