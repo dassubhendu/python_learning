@@ -33,7 +33,9 @@ Important ==> https://www.youtube.com/watch?v=XqAHhnXTtIE --> 1  ==> 1.4.36
 Important ==> https://www.youtube.com/watch?v=EiTh_nLv-uY --> 2
 Important ==> https://www.youtube.com/watch?v=AI6omceuZUY --> 3
 ===========================================================
-
+Company1
+Python interview
+https://www.youtube.com/watch?v=tcxYkk16BCI ==> 9.29
 
 
 
