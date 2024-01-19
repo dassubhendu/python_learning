@@ -534,4 +534,75 @@ print("\n")
 --> List consumes more memory than Tuple.
 --> List can be converted to Tuple and vice versa.
 --> List can be used as a key in a dictionary and Tuple cannot be used as a key in a dictionary.
+--> Comprehension is applicable for list and not tuple
 """
+
+# Special difference ==> Same reference would be pointed for tuples if those contain same set of value.
+l1 = [10, 20, 30, 40]
+l2 = [10, 20, 30, 40]
+t1 = (10, 20, 30, 40)
+t2 = (10, 20, 30, 40)
+print(id(l1))
+print(id(l2))
+print(id(t1))
+print(id(t2))
+
+print("\n")
+
+"""
+38. Set and Dictionary stores object with hashcode.
+--> List doesn't store object with hashcode.
+--> We can not add List object in Set.
+    Example: s = {10, 20, 30, [50, 60]} # TypeError: un-hashable type: 'list'
+--> We can add Tuple in Set
+    Example: s = {10, (20, 30), 40} # This would not throw any error.
+--> We can not add List as key in Dictionary.
+    Example: d = {[10, 20]: 'subhendu'} # TypeError: un-hashable type: 'list'
+--> We can add Tuple as key in Dictionary.
+    Example: d = {(10, 20): 'subhendu'}
+"""
+# s1 = {10, 20, 30, [50, 60]}
+# print(s1)
+s2 = {10, (20, 30), 40}
+print(s2)
+
+print("\n")
+
+"""
+39. Unpacking is possible in List, but packing is not possible in list.
+--> Unpacking and packing are possible in tuple.
+"""
+# List unpacking [List packing is not possible ]
+l1 = [10, 20, 30, 40]
+a, b, c, d = l1
+print('This is list unpacking: ', a, b, c, d)
+
+# Tuple unpacking [Tuple packing also possible]
+t1 = [10, 20, 30, 40]
+e, f, g, h = t1
+print('This is tuple unpacking: ', e, f, g, h)
+
+# Tuple packing
+a = 10
+b = 20
+c = 30
+d = 40
+t3 = a, b, c, d
+print('After packing the tuple is: ', t3)
+
+print("\n")
+
+"""
+40. What is the difference between Set and FrozenSet?
+--> All properties of Set and FrozenSet are same except Set is mutable and FrozenSet is immutable.
+"""
+# Set is multable
+s = {30, 40, 50, 70}
+s.add(60)
+print('Set after adding a new element: ', s)
+
+# Frozen set is immutable and no add, remove function is available for it.
+
+print("\n")
+
+

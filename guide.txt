@@ -23,12 +23,13 @@ https://www.techtarget.com/searchnetworking/definition/radio-access-network-RAN
 
 https://www.youtube.com/watch?v=0zzGoyG9FEU
 ===========================================================
+Python interview
 Important ==> https://www.youtube.com/watch?v=_VSnU8cQ3wQ
 ===========================================================
 
 ===========================================================
-Another Set
-Important ==> https://www.youtube.com/watch?v=XqAHhnXTtIE --> 1
+Another Set ==> Python interview
+Important ==> https://www.youtube.com/watch?v=XqAHhnXTtIE --> 1  ==> 1.4.36
 Important ==> https://www.youtube.com/watch?v=EiTh_nLv-uY --> 2
 Important ==> https://www.youtube.com/watch?v=AI6omceuZUY --> 3
 ===========================================================
