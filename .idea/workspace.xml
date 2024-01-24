@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7ee794e-252c-45e5-b7e3-2cd3217d5954" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/question_answer/comp1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/guide.txt" beforeDir="false" afterPath="$PROJECT_DIR$/guide.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/question_answer/comp1.py" beforeDir="false" afterPath="$PROJECT_DIR$/question_answer/comp1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/question_answer/question_answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/question_answer/question_answer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +31,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.comp1">
+  <component name="RunManager" selected="Python.question_answer">
     <configuration name="comp1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -75,8 +76,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.comp1" />
         <item itemvalue="Python.question_answer" />
+        <item itemvalue="Python.comp1" />
       </list>
     </recent_temporary>
   </component>

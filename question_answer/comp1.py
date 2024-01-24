@@ -5,6 +5,7 @@
     classes, and control structures. A suite is typically indented,
     with each line of the suite being indented the same amount.
 """
+import re
 
 """
 2. What are the data types we have in Python?
@@ -61,3 +62,29 @@ class Employee:
 
 
 e1 = Employee(1001, 'Subhendu')
+
+print("\n")
+
+"""
+7. What is 'pass' statement?
+--> In Python programming, the pass statement is a null statement which can be used as a placeholder for future code.
+--> Suppose we have a loop or a function that is not implemented yet, 
+    but we want to implement it in the future. In such cases, we can use the pass statement.
+"""
+n = 10
+# use pass inside if statement
+if n > 10:
+    pass
+print('Hello')
+
+print("\n")
+
+"""
+8. How to check whether a given string starts with digit or not?
+"""
+my_str = '78subhendu'
+print('Checking whether given string starts with digit: ', my_str[0].isdigit())
+
+# Another way using regex
+starts_with_digit = re.match(r"\d", my_str)
+print(starts_with_digit) # Should not be None

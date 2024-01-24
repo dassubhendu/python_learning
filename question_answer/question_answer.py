@@ -178,8 +178,17 @@ print("myDict: ", myDict)
 print("\n")
 
 """
-14. How to remove duplicate elements from a list?
+14. How to find / remove duplicate elements from a list?
 """
+my_list = [10, 20, 30, 40, 50, 60, 10, 30]
+__size = len(my_list)
+repeated = []
+for i in range(__size):
+    k = i + 1
+    for j in range(k, __size):
+        if my_list[i] == my_list[j] not in repeated:
+            repeated.append(my_list[i])
+print("The duplicate element in list: ", repeated)
 
 print("\n")
 
@@ -604,5 +613,98 @@ print('Set after adding a new element: ', s)
 # Frozen set is immutable and no add, remove function is available for it.
 
 print("\n")
+
+"""
+41. Can we count duplicate element in Set?
+--> Yes, for this first we need to convert the set into list and then count the duplicate element.
+--> ************ Need to find the right answer ***************
+"""
+s1 = {10, 20, 30, 40, 50, 30, 60, 70, 30}
+l1 = list(s1)
+print('The set after converted to list: ', l1)
+
+print("\n")
+
+"""
+42. Can we reverse SET objects.
+--> If you ever need to reverse an iterator like this, then you should first convert it to a list using list() . 
+    In this example, when you try to use reversed() with a set object, you get a TypeError . 
+    This is because sets don't keep their items ordered, so Python doesn't know how to reverse them.
+"""
+
+print("\n")
+
+"""
+43. What is the difference between set() method and set {} object
+"""
+my_str1 = 'subhendu'
+s1 = set(my_str1)
+print(s1)
+s2 = {10, 'name', 34, 'test', 6.7}
+print(s2)
+
+print("\n")
+
+"""
+44. Define multi dimensional list. Can we have a single variable with all type of derived data types?
+"""
+l1 = [
+        [10, 20, 30, 40],
+        ('a', 3, 'b', 4),
+        {"name": "subhendu", "roll_no": 34, "address": "kolkata"},
+        {45, 65, 67.4, 56}
+]
+print(l1)
+
+print("\n")
+
+"""
+45. Mention three pre-defined method for Dictionary.
+--> Copy, pop, clear, update, keys, values
+"""
+my_dict = {"name": "subhendu", "roll_no": 34, "address": "kolkata"}
+my_dict["state"] = "west_bengal"
+print(my_dict)
+my_dict.update({"age": 35})
+print(my_dict)
+my_dict["name"] = "saurav"
+print(my_dict)
+
+print("\n")
+
+"""
+46. Does dictionary have null key?
+--> Yes, key can be null.
+"""
+my_dict1 = {"": "subhendu", "roll_no": 34, "address": "kolkata"}
+print(my_dict1)
+
+print("\n")
+
+"""
+47. Does dictionary comprises of duplicate keys?
+--> Yes, dictionary can have duplicate keys. Bit it will pick the last entry.
+"""
+my_dict3 = {"name": "subhendu", "name": "saurav", "name": "sachin", "address": "kolkata"}
+print(my_dict3)
+
+print("\n")
+
+"""
+48. If we need to Create, Read and Write in file, what would be the approach?
+--> "x" - Create - will create a file, returns an error if the file exist
+--> "a" - Append - will create a file if the specified file does not exist
+--> "w" - Write - will create a file if the specified file does not exist
+--> "r+" - Read / Write
+--> "w+" - Write / Read
+"""
+# Creating a file
+f = open("myfile.txt", "w")
+# Reading the empty file
+f1 = open("myfile.txt", "r+")
+print('Reading the file when it is empty: ', f1.read())
+f1.write('This is a test file')
+f1.seek(0)
+print('Reading the file with content: ', f1.read())
 
 
