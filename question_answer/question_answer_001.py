@@ -22,6 +22,7 @@ def switch_demo(argument):
         2: "This is case two",
     }
     return switcher.get(argument, "nothing") 
+--> ****** Python Supports SWITCH statement from 3.10 version.
 """
 
 """
@@ -153,3 +154,14 @@ for x in fruits:
     new_list.append(x)
 
 print('After completion of list comprehension: ', new_list)
+
+"""
+12. What is PEP?
+--> It is Python technical design documentation and it stands for Python Enhancement Proposal.
+--> Community.
+"""
+
+"""
+13. What is PIP?
+--> Library management --> preferred Installer Program. 
+"""

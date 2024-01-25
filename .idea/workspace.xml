@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c7ee794e-252c-45e5-b7e3-2cd3217d5954" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guide.txt" beforeDir="false" afterPath="$PROJECT_DIR$/guide.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/question_answer/comp1.py" beforeDir="false" afterPath="$PROJECT_DIR$/question_answer/comp1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/question_answer/question_answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/question_answer/question_answer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/question_answer/question_answer_001.py" beforeDir="false" afterPath="$PROJECT_DIR$/question_answer/question_answer_001.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,14 +21,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/subhendudas/TestAutomation/Python/python_learning&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/subhendudas/TestAutomation/Python/python_learning/question_answer",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/question_answer" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python.question_answer">
     <configuration name="comp1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_learning" />
